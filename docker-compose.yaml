@@ -1,0 +1,16 @@
+services:
+  php:
+    build: .
+    volumes:
+      - ./:/app
+    ports:
+      - 8081:80
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: app
+    volumes:
+      - ./database.sql:/docker-entrypoint-initdb.d/database.sql
+    ports:
+      - "3307:3306"

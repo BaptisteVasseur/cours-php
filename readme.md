@@ -6,7 +6,8 @@
 4. Rendez-vous sur [http://localhost:8081](http://localhost:8081) pour accéder à votre page php.
 
 > Pour voir les données, vous pouvez aller sur [http://localhost:8082/](http://localhost:8082/) avec les identifiants suivants :
-> - Utilisateur : root
-> - Mot de passe : root
+> - Utilisateur : `root`
+> - Mot de passe : `root`
+>
 > Accédez à la base de données `app` pour voir les tables et les données.
 
